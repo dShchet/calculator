@@ -1,22 +1,16 @@
-.App {
-  text-align: center;
+*{    overflow: auto;}
+p{
+    margin: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
+.output, button{
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    margin: 3px;
+    padding: 10px 15px;}
+button:hover{
+    background: #efefef; 
+    cursor: pointer;       
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
+.output{    width: 100px;
+    height: 18px;}
